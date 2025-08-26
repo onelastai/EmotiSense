@@ -1,1 +1,1 @@
-# EmotiSense
+# 🧠 EmotiSense\n\nDecode emotional resonance from text, voice, or user interaction.\n\n## Features\n- Sentiment detection\n- Real-time feedback\n- Modular API\n\n## Usage\nRun `pnpm dev` to start the agent.\n\n## Author\nBuilt by Johnny — mythic operator of Royal AI™.

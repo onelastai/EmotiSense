@@ -1,0 +1,1 @@
+{\n  "name": "emotisense",\n  "version": "1.0.0",\n  "main": "src/index.ts",\n  "scripts": {\n    "dev": "ts-node src/index.ts"\n  },\n  "dependencies": {\n    "ts-node": "^10.9.1",\n    "typescript": "^5.2.2"\n  }\n}

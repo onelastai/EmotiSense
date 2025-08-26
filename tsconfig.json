@@ -1,0 +1,1 @@
+{\n  "compilerOptions": {\n    "target": "ESNext",\n    "module": "CommonJS",\n    "rootDir": "src",\n    "outDir": "dist",\n    "strict": true\n  }\n}

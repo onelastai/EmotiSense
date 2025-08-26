@@ -1,0 +1,1 @@
+export function analyzeEmotion(text: string): string {\n  const emotions = [\n    { keyword: 'hope', label: 'Positive: Hopeful' },\n    { keyword: 'uncertain', label: 'Neutral: Uncertain' },\n    { keyword: 'fear', label: 'Negative: Fearful' }\n  ]\n  const match = emotions.find(e => text.includes(e.keyword))\n  return match ? match.label : 'Unknown Emotion'\n}
