@@ -1,1 +1,17 @@
-export function analyzeEmotion(text: string): string {\n  const emotions = [\n    { keyword: 'hope', label: 'Positive: Hopeful' },\n    { keyword: 'uncertain', label: 'Neutral: Uncertain' },\n    { keyword: 'fear', label: 'Negative: Fearful' }\n  ]\n  const match = emotions.find(e => text.includes(e.keyword))\n  return match ? match.label : 'Unknown Emotion'\n}
+import { config } from './config';
+
+export class EmotiSenseAgent {
+  constructor() {
+    console.log(\🧠 EmotiSense Agent v\ initialized\);
+  }
+
+  analyze(text: string) {
+    // simple placeholder for emotion detection
+    const emotions = config.emotions;
+    const detected = emotions.find(e => text.toLowerCase().includes(e)) || "neutral";
+    return {
+      emotion: detected,
+      confidence: Math.random().toFixed(2)
+    };
+  }
+}

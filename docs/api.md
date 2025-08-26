@@ -1,1 +1,15 @@
-# API Docs\n\n**POST /analyze**\n- Request: { text: "I feel hopeful" }\n- Response: { emotion: "Hopeful", confidence: 0.92 }
+# 🔌 EmotiSense API
+
+## POST /analyze
+Request body:
+`json
+{ "text": "I feel hopeful today!" }
+Response:
+
+json
+Copy
+Edit
+{
+  "emotion": "hope",
+  "confidence": 0.87
+}
