@@ -1,4 +1,4 @@
-# 🧠 EmotiSense
+﻿# 🧠 EmotiSense
 
 **EmotiSense** is a sovereign AI agent built for emotional intelligence. It decodes sentiment, mood, and resonance from user input—text, voice, or interaction—and returns insights that empower cinematic UX, community-first platforms, and emotionally aware agents.
 
@@ -6,7 +6,7 @@
 
 ## 🔍 Features
 
-- 💬 Real-time emotion detection (joy, fear, doubt, hope, anger, calm)
+- 💬 Real-time emotion detection (joy, fear, doubt, hope, etc.)
 - 🧠 Confidence scoring with keyword parsing
 - 🔗 API-ready for external modules
 - 🧪 Modular architecture for rapid iteration
@@ -15,7 +15,7 @@
 
 ## 🚀 Quickstart
 
-`ash
+```bash
 pnpm install
 pnpm dev
 Agent spins up locally and begins parsing emotional tone from input streams.
